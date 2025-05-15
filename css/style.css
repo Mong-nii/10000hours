@@ -140,8 +140,8 @@ main {
 .footer-buttons {
   display: flex;
   justify-content: center;
-  gap: 12px;
-  margin: 40px 0 20px;
+  gap: 6px;
+  margin: 40px 0 35px;
   align-items: center;
 }
 
@@ -165,8 +165,9 @@ main {
 }
 
 .footer-info img {
+  scale: 2;
   width: 60px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 .quote-box {
