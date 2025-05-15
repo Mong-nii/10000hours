@@ -110,23 +110,29 @@ main {
   width: 100%;
   font-size: 24px;
   margin: 0;
-  margin-bottom: 1em;
   padding: 15px;
   white-space: nowrap;
   text-align: center;
 }
 
 .input-group input[type="text"] {
-
-  width: 120px;
-  padding: 8px;
+  font-family: GmarketSansMedium, sans-serif;
+  width: 9em;
+  padding: 13px;
   border: none;
   border-radius: 8px;
-  font-size: 16px;
-  margin: 0 4px;
+  font-size: 24px;
+  margin: 0 20px;
   text-align: center;
   align-items: center;
+  
 }
+
+input::placeholder {
+  color: #888;
+  opacity: 0.6;
+}
+
 
 
 .btn-yellow {
