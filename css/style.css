@@ -145,6 +145,12 @@ input::placeholder {
   font-size: 16px;
   cursor: pointer;
   margin-top: 12px;
+  transition: all 0.1s ease;
+}
+
+.btn-yellow:active {
+  background-color: #ffffff;
+  color: #5b2386;
 }
 
 
