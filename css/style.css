@@ -40,14 +40,15 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 200px;
-  opacity: 0.3;
   z-index: 0;
 }
 
 .title-logo h1 {
   position: relative;
+  width: 80%;
   z-index: 1;
   margin: 0;
+  margin-left: 3.5rem;
 }
 
 .title-logo h1 img {
@@ -60,7 +61,7 @@ body {
 
 .header-font {
   font-family: 'OTEnjoystoriesBA', sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   color: #f5df4d;
   margin-top: 16px;
   line-height: 1.3;
